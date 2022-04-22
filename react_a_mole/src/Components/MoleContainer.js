@@ -4,6 +4,11 @@ import EmptySlot from './EmptySlot'
 
 function MoleContainer(props){
     const [displayMole] = useState(false);
+
+    function MoleBopped (){
+        
+    }
+
     return (
         <div>
             <h2> Mole Container </h2>
